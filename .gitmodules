@@ -1,0 +1,6 @@
+[submodule "wp-content/plugins/mbm-prime-users-plugin"]
+	path = wp-content/plugins/mbm-prime-users-plugin
+	url = git@github.com:mbm-tom/mbm-prime-users-plugin.git
+[submodule "wp-content/themes/buddyboss-theme-child"]
+	path = wp-content/themes/buddyboss-theme-child
+	url = git@github.com:mbm-tom/prime-bb-child-theme.git

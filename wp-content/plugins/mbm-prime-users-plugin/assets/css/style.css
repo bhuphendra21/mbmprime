@@ -1,0 +1,268 @@
+/**
+ *  Stepped Form Styles
+ */
+
+/* === Sign Up By Senza === */
+.response.invalid ul {
+    list-style: none;
+    padding: 15px;
+    background: #f8d7da;
+    color: #721c24;
+    border-color: #f5c6cb;
+}
+
+.response.valid {
+    color: #155724;
+    background-color: #d4edda;
+    border-color: #c3e6cb;
+    text-align: left;
+    padding: 10px;
+}
+
+input[type=checkbox] {
+    width: 15px !important;
+    height: 15px !important;
+}
+
+.btn-primary {
+    background: #DDA845 !important; 
+    border-radius: 10px !important;
+    border: #DDA845 !important;
+}
+
+.btn-resend {
+    color: #DDA845;
+    font-weight: bold;
+    padding:  0;
+    background-color: transparent;
+}
+
+.btn-resend:hover {
+    background-color: transparent;
+    color: #DDA845;
+    text-decoration: underline;
+    box-shadow: none;
+}
+
+.iti__flag {
+    background-image: url("./img/flags.png");
+}
+
+.boxx {
+    border: 1px solid #dfdfdf;
+    border-radius: 4px;
+    background-color: #ffffff;
+}
+
+.ms-benefits::first-letter {
+    text-transform: uppercase;
+}
+
+#step-2 .step2-btn {
+    font-size: 16px;
+}
+
+#step-3 .form-select-lg {
+    font-size: 14px;
+    padding: 6px 10px;
+}
+
+#step-4 .form-select-lg {
+    font-size: 14px;
+    padding: 6px 10px;
+}
+
+#step-5 .form-select-lg {
+    font-size: 14px;
+    padding: 6px 10px;
+}
+
+#step-6 .form-select-lg {
+    font-size: 14px;
+    padding: 6px 10px;
+}
+
+#step-8 table,
+#step-8 td ,
+#step-8 th {
+    border: 1px solid grey;
+    padding: 8px;
+}
+
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+    .iti__flag {
+        background-image: url("./img/flags@2x.png");
+    }
+}
+
+/* === Sign Up By Senza === */
+
+
+/* .Page__SteppedForm
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.SteppedForm
+{
+    width: 60%;
+    max-width: 800px;
+    padding: 20px 40px 24px 180px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+    position: relative;
+}
+
+.StepForm__section-image
+{
+    position: absolute;
+    width: 300px;
+    left: -147px;
+    top: 75px;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+}
+
+.SteppedForm__title
+{
+    font-size: 1.7rem;
+    text-align: center;
+    margin-bottom: 5px;
+    font-weight: normal;
+}
+
+.SteppedForm__subtitle
+{
+    font-size: 0.9rem;
+    font-weight: 300;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.alert-message
+{
+    font-size: 0.9rem;
+    text-align: center;
+    margin-top: -20px;
+    margin-bottom: 25px;
+    padding: 10px 10px;
+    border-radius: 9px;
+}
+
+.alert-message.danger
+{
+    background-color: #efa9a9;
+    color: #a90000;
+} */
+
+/*
+.alert-message.warning
+{
+    color: #856404;
+    background-color: #fff3cd;
+    /*border-color: #ffeeba;*/
+/* } */
+
+/*
+.SteppedForm__section-form-inputs
+{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 8px;
+}
+
+.SteppedForm__double-inputs-wrapper
+{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.SteppedForm__double-inputs-wrapper input
+{
+    width: 49%;
+}
+
+.SteppedForm__double-inputs-wrapper select
+{
+    width: 49%;
+}
+
+.SteppedForm__section-form-inputs label
+{
+    font-size: 1rem;
+    font-weight: 300;
+    margin-bottom: 9px;
+}
+
+.SteppedForm__section-form-inputs input
+{
+    font-size: 0.9rem;
+    border: none;
+    border-bottom: 1px solid #b1b1b1;
+    padding-bottom: 5px;
+    padding-left: 3px;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.SteppedForm__section-form-inputs input.warning
+{
+    border-bottom: 1px solid #ff9a9a;
+}
+
+.SteppedForm__section-form-inputs input.warning::placeholder
+{
+    color: #ff4444;
+}
+
+.SteppedForm__section-form-inputs select
+{
+    font-size: 0.9rem;
+    border: none;
+    border-bottom: 1px solid #b1b1b1;
+    padding-bottom: 5px;
+    margin-bottom: 30px;
+}
+
+.SteppedForm__section-form-inputs input:focus,
+.SteppedForm__section-form-inputs select:focus
+{
+    outline: none;
+}
+
+.SteppedForm__section-form-inputs input::placeholder
+{
+    color: #6D6D6D;
+}
+
+.SteppedForm__section-buttons
+{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.SteppedForm__section-buttons-signup-btn
+{
+    line-height: 1;
+    background-color: rgba(0,0,0,0);
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+.signup-btn-icon
+{
+    margin-left: 5px;
+} */

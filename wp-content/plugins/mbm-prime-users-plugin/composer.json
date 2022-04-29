@@ -1,0 +1,15 @@
+{
+    "name": "tommarto/mbm-users",
+    "authors": [
+        {
+            "name": "tom",
+            "email": "tom@mybusinessmatches.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Inc\\": "./inc"
+        }
+    }
+}
